@@ -47,7 +47,7 @@ public class PartB : MonoBehaviour
         {
             // Море опускается и музыка становится громче
             Sea.transform.position = Vector3.MoveTowards(Sea.transform.position, new Vector3(0, -5, 0), Time.deltaTime * 1);
-            SoundBackGround.volume = Mathf.MoveTowards(SoundBackGround.volume, 0.18f, Time.deltaTime * 0.015f);
+            SoundBackGround.volume = Mathf.MoveTowards(SoundBackGround.volume, 0.05f, Time.deltaTime * 0.015f);
             if (Sea.transform.position.y == -5)
             {
                 // удаляем море (в принцепе незачем)

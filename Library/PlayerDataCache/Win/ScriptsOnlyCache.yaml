@@ -68,35 +68,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11248}
+      Script: {instanceID: 11252}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 11410}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11450}
     - Class: 114
-      Script: {instanceID: 11502}
+      Script: {instanceID: 11506}
     - Class: 114
-      Script: {instanceID: 11754}
+      Script: {instanceID: 11758}
     - Class: 114
-      Script: {instanceID: 11838}
+      Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 12044}
+      Script: {instanceID: 12048}
     - Class: 114
-      Script: {instanceID: 12490}
+      Script: {instanceID: 12494}
     - Class: 114
-      Script: {instanceID: 12706}
+      Script: {instanceID: 12710}
     - Class: 114
-      Script: {instanceID: 12796}
-    - Class: 114
-      Script: {instanceID: 12842}
+      Script: {instanceID: 12800}
     - Class: 114
       Script: {instanceID: 12846}
     - Class: 114
-      Script: {instanceID: 12916}
+      Script: {instanceID: 12850}
     - Class: 114
-      Script: {instanceID: 13004}
+      Script: {instanceID: 12920}
     - Class: 114
-      Script: {instanceID: 13064}
+      Script: {instanceID: 13008}
+    - Class: 114
+      Script: {instanceID: 13068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -230,7 +230,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 364115a68360899c906832097d078324
+      Hash: 06678f512fc3e981f46568dc449c2026
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -350,7 +350,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: d7307bb18f6c0c34a77f420eb8375bd0
+      Hash: dce34f5ca12f33e9661bd518d70064d5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Camera
@@ -610,4 +610,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   playerPath: "C:/Users/ship_/OneDrive/\u0420\u0430\u0431\u043E\u0447\u0438\u0439
-    \u0441\u0442\u043E\u043B/o.o/GitHub/Week-4/Build-1/Week #4.exe"
+    \u0441\u0442\u043E\u043B/o.o/GitHub/Week-4/Build/Build-2/Week #4.exe"
