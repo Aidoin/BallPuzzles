@@ -74,8 +74,8 @@ public class Pointer : MonoBehaviour
             transform.position = new Vector3(PlayerTransform.position.x, PlayerTransform.position.y + (PlayerController.size / 2), PlayerTransform.position.z);
 
             // Находим позиции игрока и ближайшего поинта с обнулёными координатами по Y (чтобы стрелка не двигалась вверх - вниз)
-            Vector3 zeroXBallPosition = new Vector3(magicBallsMinDistance.transform.position.x, 0, magicBallsMinDistance.transform.position.z);
-            Vector3 zeroXMyPosition = new Vector3(transform.position.x, 0, transform.position.z);
+            Vector3 zeroXBallPosition = new Vector3(magicBallsMinDistance.transform.position.x, magicBallsMinDistance.transform.position.y, magicBallsMinDistance.transform.position.z);
+            Vector3 zeroXMyPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
 
             // Поворачиваем стрелку в сторону ближайшего поинта
             transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(zeroXBallPosition - zeroXMyPosition), 0.05f);
